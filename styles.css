@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #474747;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    text-align: center;
+}
+
+#crypto{
+    font-size: 1.3rem;
+}
+
+#cryptoTop{
+    display: flex;
+    align-items: center;
+}
+
+.coinName{
+    margin-left: 10px;
+}
+
+#cryptoBottom{
+    font-size: .75rem;
+}
+
+.price{
+    margin: 0;
+    padding-top: 5px;
+}
